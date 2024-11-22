@@ -1,4 +1,4 @@
-# README
+# README: Lossy Image Compressor/Decompressor
 
 Date: 10/24/23
 
