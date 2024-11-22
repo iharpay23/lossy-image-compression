@@ -1,12 +1,10 @@
 # README: Lossy Image Compressor/Decompressor
 
-Date: 10/24/23
-
 ## PROGRAMMERS: 
 Ayah Harper and Nana Adjekum
 
 ## PROGRAM PURPOSE:
-Arith is a lossy image compression and decompression program. It takes a PPM image file as input for compression and outputs a compressed binary file. For decompression, it accepts the compressed binary file and reconstructs a PPM image, which may have slight quality loss compared to the original. The compression process involves reading and converting RGB values, transforming to chroma-averaged values, packing into codewords, and writing compressed data; decompression performs these steps in reverse order to reconstruct the image.
+This is a lossy image compression and decompression program. It takes a PPM image file as input for compression and outputs a compressed binary file. For decompression, it accepts the compressed binary file and reconstructs a PPM image, which may have slight quality loss compared to the original. The compression process involves reading and converting RGB values, transforming to chroma-averaged values, packing into codewords, and writing compressed data; decompression performs these steps in reverse order to reconstruct the image.
 
 ## FILE ARCHITECTURE:
 The program is structured into several components, each handling specific aspects of the compression and decompression process. Here's an overview of the file structure and their purposes:
